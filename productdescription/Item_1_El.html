@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style>
+    <link rel="stylesheet" href="/css/style.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- <style>
         #img1{
             float:right;
             margin-top: 4px;
@@ -26,27 +28,37 @@
             border-radius: 5px;
             padding: 10px;
         }
-    </style>
+    </style>-->
 </head>
 <body>
    
-     <img id="img1" src="https://via.placeholder.com/150 x 150" alt="image1.png" />
-     <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae, asperiores! Quidem, facilis doloremque! Deserunt suscipit porro quaerat alias, sit, voluptate obcaecati harum officiis quasi earum expedita quod. Odit, fuga consequuntur.
-        
-        <ul>
-        <li>Price: $50.00</li>
-        <li>Category: Electronics</li>
-        <li>Rating: 4.5/5</li>
-    </ul></p>
-  
+     <img id="img1" src="https://via.placeholder.com/350 x 350" alt="image1.png" />
+     <h4>About this item:</h4>
+     <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae, asperiores! Quidem, facilis doloremque! Deserunt suscipit porro quaerat alias, sit, voluptate obcaecati harum officiis quasi earum expedita quod. Odit, fuga consequuntur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident incidunt ipsam odit soluta. Aut accusamus maiores beatae modi pariatur porro doloribus repudiandae! Veritatis accusamus est quae, quidem provident quo? Magni.
+
+        <div class="price">
+        <label><b>Price:</b></label>
+        <p id="price">$50.00</p>
+    </div>
+    </p>
+  <div class="rating">
+    <span class="fa fa-star checked"></span>
+    <span class="fa fa-star checked"></span>
+    <span class="fa fa-star checked"></span>
+    <span class="fa fa-star"></span>
+    <span class="fa fa-star"></span>
+</div>
+    
+
     <label>Quantity :</label>
-                <select name="quantity" id=" quantity">
+                <select name="quantity" id="quantity">
                     <option value="1">1</option>
                     <option value="2">2</option>
-                    <option value="2">3</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
                 </select>
 
-               <button type="button">Add to cart</button>
-                <button type="button">Buy Now</button>
+               <button type="button" id="cart">Add to cart</button>
+                <button type="button" id="buy">Buy Now</button>
 </body>
 </html>

@@ -43,3 +43,40 @@
     color: #fff;
     box-shadow: 2px 2px gray;
  }
+
+ #img1{
+  float:left;
+  margin-right: 25px;
+  margin-left: 5px;
+  
+}
+.checked {
+  color: orange;
+}
+
+#quantity{
+  width: 50px;
+  text-align: center;
+}
+
+
+button{
+  background-color: #4CAF50;
+  color: #fff;
+  border:none;
+  border-radius: 5px;
+  padding: 10px;
+  margin-left: 5px;
+    margin-right: 3px;
+    width: 200px;
+}
+#price{
+font-weight: 900;
+}
+.rating{
+  padding-bottom: 4px;
+}
+
+#cart{
+  background-color: orange;
+}
